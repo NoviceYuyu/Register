@@ -40,7 +40,7 @@ function register (username, password, confirmPassword)
        return console.log("Success!")
     } 
     
-    else if ( password == "" || confirmPassword == "")
+    else if (password == "" || confirmPassword == "")
     {
         return console.log("Password field cannot be empty.")
     }
